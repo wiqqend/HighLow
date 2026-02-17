@@ -6,7 +6,7 @@ let attempts = 0;
 let userInput = prompt("Guess a number between 1 and 10, or type 999 to exit.");
 
 // Create while loop that continues for as long as the user guesses are incorrect.
-while (userInput != randomNumber) {
+while (userInput != randomNumber) {``
     attempts++;
     if (userInput == 999) {
         alert("Thanks for playing");
